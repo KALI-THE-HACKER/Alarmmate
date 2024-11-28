@@ -17,7 +17,7 @@
 
 | Home Screen | Alarm Settings | Notifications |
 |-------------|----------------|---------------|
-| ![Home](home_page.png) | ![Settings](Alarm_settings.png) | ![Notification](Notification.png) |
+| ![Home](readme_assets/home_page.png) | ![Settings](readme_assets/Alarm_settings.png) | ![Notification](Notification.png) |
 
 ---
 
