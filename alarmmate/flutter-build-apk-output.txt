@@ -1,0 +1,1617 @@
+"""luckyverma@Luckys-MAC alarmmate % flutter build apk -v"""
+
+
+           
+[   +5 ms] executing: sw_vers -productName
+[  +20 ms] Exit code 0 from: sw_vers -productName
+[        ] macOS
+[        ] executing: sw_vers -productVersion
+[   +7 ms] Exit code 0 from: sw_vers -productVersion
+[        ] 15.0.1
+[        ] executing: sw_vers -buildVersion
+[   +6 ms] Exit code 0 from: sw_vers -buildVersion
+[        ] 24A348
+[        ] executing: uname -m
+[   +2 ms] Exit code 0 from: uname -m
+[        ] arm64
+[   +4 ms] executing: sysctl hw.optional.arm64
+[   +2 ms] Exit code 0 from: sysctl hw.optional.arm64
+[        ] hw.optional.arm64: 1
+[  +46 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required,
+skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required,
+skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping
+update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping
+update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required,
+skipping update.
+[   +1 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required,
+skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping
+update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping
+update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required,
+skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required,
+skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required,
+skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required,
+skipping update.
+[  +20 ms] Artifact Instance of 'MaterialFonts' is not required, skipping
+update.
+[        ] Artifact Instance of 'GradleWrapper' is not required, skipping
+update.
+[   +2 ms] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required,
+skipping update.
+[   +2 ms] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping
+update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping
+update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required,
+skipping update.
+[        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required,
+skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping
+update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping
+update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required,
+skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required,
+skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required,
+skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required,
+skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping
+update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping
+update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping
+update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping
+update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping
+update.
+[        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping
+update.
+[        ] Artifact Instance of 'PubDependencies' is not required, skipping
+update.
+[  +68 ms] Skipping pub get: version match.
+[  +13 ms] Found plugin alarm at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/alarm-4.0.8/
+[  +27 ms] Found plugin flutter_fgbg at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/flutter_fgbg-0.6.0/
+[   +2 ms] Found plugin flutter_local_notifications at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/flutter_local_notifications-17.2.4/
+[   +1 ms] Found plugin flutter_local_notifications_linux at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/flutter_local_notifications_linux-4.
+0.1/
+[  +23 ms] Found plugin path_provider at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/path_provider-2.1.5/
+[   +1 ms] Found plugin path_provider_android at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/path_provider_android-2.2.12/
+[   +1 ms] Found plugin path_provider_foundation at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/path_provider_foundation-2.4.0/
+[   +1 ms] Found plugin path_provider_linux at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/path_provider_linux-2.2.1/
+[   +1 ms] Found plugin path_provider_windows at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/path_provider_windows-2.3.0/
+[   +7 ms] Found plugin shared_preferences at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/shared_preferences-2.3.2/
+[        ] Found plugin shared_preferences_android at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/shared_preferences_android-2.3.3/
+[        ] Found plugin shared_preferences_foundation at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/shared_preferences_foundation-2.5.3/
+[        ] Found plugin shared_preferences_linux at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/shared_preferences_linux-2.4.1/
+[   +1 ms] Found plugin shared_preferences_web at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/shared_preferences_web-2.4.2/
+[        ] Found plugin shared_preferences_windows at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/shared_preferences_windows-2.4.1/
+[  +23 ms] executing: sysctl hw.optional.arm64
+[   +2 ms] Exit code 0 from: sysctl hw.optional.arm64
+[        ] hw.optional.arm64: 1
+[        ] executing: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[ +137 ms] Exit code 0 from: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[        ] Xcode 16.0
+           Build version 16A242d
+[   +7 ms] Found plugin alarm at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/alarm-4.0.8/
+[   +9 ms] Found plugin flutter_fgbg at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/flutter_fgbg-0.6.0/
+[        ] Found plugin flutter_local_notifications at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/flutter_local_notifications-17.2.4/
+[        ] Found plugin flutter_local_notifications_linux at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/flutter_local_notifications_linux-4.
+0.1/
+[   +8 ms] Found plugin path_provider at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/path_provider-2.1.5/
+[        ] Found plugin path_provider_android at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/path_provider_android-2.2.12/
+[        ] Found plugin path_provider_foundation at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/path_provider_foundation-2.4.0/
+[        ] Found plugin path_provider_linux at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/path_provider_linux-2.2.1/
+[        ] Found plugin path_provider_windows at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/path_provider_windows-2.3.0/
+[   +2 ms] Found plugin shared_preferences at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/shared_preferences-2.3.2/
+[        ] Found plugin shared_preferences_android at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/shared_preferences_android-2.3.3/
+[        ] Found plugin shared_preferences_foundation at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/shared_preferences_foundation-2.5.3/
+[        ] Found plugin shared_preferences_linux at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/shared_preferences_linux-2.4.1/
+[        ] Found plugin shared_preferences_web at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/shared_preferences_web-2.4.2/
+[        ] Found plugin shared_preferences_windows at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/shared_preferences_windows-2.4.1/
+[  +16 ms] Found plugin alarm at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/alarm-4.0.8/
+[   +7 ms] Found plugin flutter_fgbg at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/flutter_fgbg-0.6.0/
+[        ] Found plugin flutter_local_notifications at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/flutter_local_notifications-17.2.4/
+[        ] Found plugin flutter_local_notifications_linux at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/flutter_local_notifications_linux-4.
+0.1/
+[   +7 ms] Found plugin path_provider at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/path_provider-2.1.5/
+[        ] Found plugin path_provider_android at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/path_provider_android-2.2.12/
+[        ] Found plugin path_provider_foundation at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/path_provider_foundation-2.4.0/
+[        ] Found plugin path_provider_linux at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/path_provider_linux-2.2.1/
+[        ] Found plugin path_provider_windows at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/path_provider_windows-2.3.0/
+[   +2 ms] Found plugin shared_preferences at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/shared_preferences-2.3.2/
+[        ] Found plugin shared_preferences_android at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/shared_preferences_android-2.3.3/
+[        ] Found plugin shared_preferences_foundation at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/shared_preferences_foundation-2.5.3/
+[        ] Found plugin shared_preferences_linux at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/shared_preferences_linux-2.4.1/
+[        ] Found plugin shared_preferences_web at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/shared_preferences_web-2.4.2/
+[        ] Found plugin shared_preferences_windows at
+/Users/luckyverma/.pub-cache/hosted/pub.dev/shared_preferences_windows-2.4.1/
+[   +9 ms] Generating
+/Users/luckyverma/flutter-bootcamp-Luckylinux7/week_3/submission/alarmmate/andro
+id/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+[  +99 ms] executing: /usr/bin/plutil -convert xml1 -o - /Applications/Android
+Studio.app/Contents/Info.plist
+[   +7 ms] Exit code 0 from: /usr/bin/plutil -convert xml1 -o -
+/Applications/Android Studio.app/Contents/Info.plist
+[        ] <?xml version="1.0" encoding="UTF-8"?>
+           <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+           "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+           <plist version="1.0">
+           <dict>
+           	<key>CFBundleDevelopmentRegion</key>
+           	<string>English</string>
+           	<key>CFBundleDocumentTypes</key>
+           	<array>
+           		<dict>
+           			<key>CFBundleTypeExtensions</key>
+           			<array>
+           				<string>ipr</string>
+           			</array>
+           			<key>CFBundleTypeIconFile</key>
+           			<string>studio.icns</string>
+           			<key>CFBundleTypeName</key>
+           			<string>Android Studio Project File</string>
+           			<key>CFBundleTypeRole</key>
+           			<string>Editor</string>
+           		</dict>
+           		<dict>
+           			<key>CFBundleTypeExtensions</key>
+           			<array>
+           				<string>*</string>
+           			</array>
+           			<key>CFBundleTypeName</key>
+           			<string>All documents</string>
+           			<key>CFBundleTypeOSTypes</key>
+           			<array>
+           				<string>****</string>
+           			</array>
+           			<key>CFBundleTypeRole</key>
+           			<string>Editor</string>
+           			<key>LSTypeIsPackage</key>
+           			<false/>
+           		</dict>
+           	</array>
+           	<key>CFBundleExecutable</key>
+           	<string>studio</string>
+           	<key>CFBundleGetInfoString</key>
+           	<string>Android Studio 2024.2, build AI-242.23339.11.2421.12550806.
+           	Copyright JetBrains s.r.o., (c) 2000-2024</string>
+           	<key>CFBundleIconFile</key>
+           	<string>studio.icns</string>
+           	<key>CFBundleIdentifier</key>
+           	<string>com.google.android.studio</string>
+           	<key>CFBundleInfoDictionaryVersion</key>
+           	<string>6.0</string>
+           	<key>CFBundleName</key>
+           	<string>Android Studio</string>
+           	<key>CFBundlePackageType</key>
+           	<string>APPL</string>
+           	<key>CFBundleShortVersionString</key>
+           	<string>2024.2</string>
+           	<key>CFBundleURLTypes</key>
+           	<array>
+           		<dict>
+           			<key>CFBundleTypeRole</key>
+           			<string>Editor</string>
+           			<key>CFBundleURLName</key>
+           			<string>Stacktrace</string>
+           			<key>CFBundleURLSchemes</key>
+           			<array>
+           				<string>idea</string>
+           			</array>
+           		</dict>
+           	</array>
+           	<key>CFBundleVersion</key>
+           	<string>AI-242.23339.11.2421.12550806</string>
+           	<key>LSApplicationCategoryType</key>
+           	<string>public.app-category.developer-tools</string>
+           	<key>LSArchitecturePriority</key>
+           	<array>
+           		<string>arm64</string>
+           	</array>
+           	<key>LSMinimumSystemVersion</key>
+           	<string>10.13</string>
+           	<key>LSRequiresNativeExecution</key>
+           	<string>YES</string>
+           	<key>NSAppleEventsUsageDescription</key>
+           	<string>An application in Android Studio requests the ability to
+           	send Apple events.</string>
+           	<key>NSBluetoothAlwaysUsageDescription</key>
+           	<string>An application in Android Studio requests access to
+           	Bluetooth.</string>
+           	<key>NSCameraUsageDescription</key>
+           	<string>An application in Android Studio requests access to the
+           	device's camera.</string>
+           	<key>NSDesktopFolderUsageDescription</key>
+           	<string>An application in Android Studio requests access to the
+           	user's Desktop folder.</string>
+           	<key>NSDocumentsFolderUsageDescription</key>
+           	<string>An application in Android Studio requests access to the
+           	user's Documents folder.</string>
+           	<key>NSDownloadsFolderUsageDescription</key>
+           	<string>An application in Android Studio requests access to the
+           	user's Downloads folder.</string>
+           	<key>NSHighResolutionCapable</key>
+           	<true/>
+           	<key>NSLocationUsageDescription</key>
+           	<string>An application in Android Studio requests access to the
+           	user's location information.</string>
+           	<key>NSMicrophoneUsageDescription</key>
+           	<string>An application in Android Studio requests access to the
+           	device's microphone.</string>
+           	<key>NSNetworkVolumesUsageDescription</key>
+           	<string>An application in Android Studio requests access to files on
+           	a network volume.</string>
+           	<key>NSRemovableVolumesUsageDescription</key>
+           	<string>An application in Android Studio requests access to files on
+           	a removable volume.</string>
+           	<key>NSSupportsAutomaticGraphicsSwitching</key>
+           	<true/>
+           </dict>
+           </plist>
+[   +4 ms] executing: /Applications/Android
+Studio.app/Contents/jbr/Contents/Home/bin/java -version
+[  +55 ms] Exit code 0 from: /Applications/Android
+Studio.app/Contents/jbr/Contents/Home/bin/java -version
+[        ] openjdk version "21.0.3" 2024-04-16
+           OpenJDK Runtime Environment (build 21.0.3+-79915917-b509.11)
+           OpenJDK 64-Bit Server VM (build 21.0.3+-79915917-b509.11, mixed mode)
+[   +6 ms] executing: /Applications/Android
+Studio.app/Contents/jbr/Contents/Home/bin/java --version
+[  +53 ms] Exit code 0 from: /Applications/Android
+Studio.app/Contents/jbr/Contents/Home/bin/java --version
+[        ] openjdk 21.0.3 2024-04-16
+           OpenJDK Runtime Environment (build 21.0.3+-79915917-b509.11)
+           OpenJDK 64-Bit Server VM (build 21.0.3+-79915917-b509.11, mixed mode)
+[   +1 ms] Version of Java is different than impacted version, no migration
+attempted.
+[  +16 ms] Using gradle from
+/Users/luckyverma/flutter-bootcamp-Luckylinux7/week_3/submission/alarmmate/andro
+id/gradlew.
+[   +4 ms] Running Gradle task 'assembleRelease'...
+[   +2 ms] executing:
+[/Users/luckyverma/flutter-bootcamp-Luckylinux7/week_3/submission/alarmmate/andr
+oid/]
+/Users/luckyverma/flutter-bootcamp-Luckylinux7/week_3/submission/alarmmate/andro
+id/gradlew --full-stacktrace --info -Pverbose=true
+-Ptarget-platform=android-arm,android-arm64,android-x64 -Ptarget=lib/main.dart
+-Pbase-application-name=android.app.Application -Pdart-obfuscation=false
+-Ptrack-widget-creation=true -Ptree-shake-icons=true assembleRelease
+[ +350 ms] Initialized native services in: /Users/luckyverma/.gradle/native
+[        ] Initialized jansi services in: /Users/luckyverma/.gradle/native
+[ +111 ms] Received JVM installation metadata from '/Applications/Android
+Studio.app/Contents/jbr/Contents/Home': {JAVA_HOME=/Applications/Android
+Studio.app/Contents/jbr/Contents/Home, JAVA_VERSION=21.0.3,
+JAVA_VENDOR=JetBrains s.r.o., RUNTIME_NAME=OpenJDK Runtime Environment,
+RUNTIME_VERSION=21.0.3+-79915917-b509.11, VM_NAME=OpenJDK 64-Bit Server VM,
+VM_VERSION=21.0.3+-79915917-b509.11, VM_VENDOR=JetBrains s.r.o.,
+OS_ARCH=aarch64}
+[ +100 ms] The client will now receive all logging from the daemon (pid: 7980).
+The daemon log file: /Users/luckyverma/.gradle/daemon/8.3/daemon-7980.out.log
+[        ] Starting 12th build in daemon [uptime: 37 mins 42.651 secs,
+performance: 100%, GC rate: 0.00/s, heap usage: 0% of 4 GiB, non-heap usage: 8%
+of 2 GiB]
+[        ] Using 8 worker leases.
+[        ] Now considering
+[/Users/luckyverma/flutter-bootcamp-Luckylinux7/week_3/submission/alarmmate/andr
+oid,
+/Users/luckyverma/Desktop/Development/flutter/packages/flutter_tools/gradle] as
+hierarchies to watch
+[        ] Watching the file system is configured to be enabled if available
+[        ] File system watching is active
+[        ] Starting Build
+[        ] Now considering
+[/Users/luckyverma/Desktop/Development/flutter/packages/flutter_tools/gradle,
+/Users/luckyverma/flutter-bootcamp-Luckylinux7/week_3/submission/alarmmate/andro
+id] as hierarchies to watch
+[  +97 ms] > Configure project :gradle
+[        ] Evaluating project ':gradle' using build file
+'/Users/luckyverma/Desktop/Development/flutter/packages/flutter_tools/gradle/bui
+ld.gradle.kts'.
+[        ] The configuration :gradle:classpath is both resolvable and
+consumable. This is considered a legacy configuration and it will eventually
+only be possible to be one of these.
+[        ] The configuration :gradle:classpath is both consumable and
+declarable. This combination is incorrect, only one of these flags should be
+set.
+[        ] The configuration :gradle:classpath is both resolvable and
+consumable. This is considered a legacy configuration and it will eventually
+only be possible to be one of these.
+[        ] The configuration :gradle:classpath is both consumable and
+declarable. This combination is incorrect, only one of these flags should be
+set.
+[        ] Caching disabled for Kotlin DSL accessors for project ':gradle'
+because:
+[        ]   Build cache is disabled
+[        ] Skipping Kotlin DSL accessors for project ':gradle' as it is
+up-to-date.
+[        ] The configuration detachedConfiguration1 is both resolvable and
+consumable. This is considered a legacy configuration and it will eventually
+only be possible to be one of these.
+[        ] The configuration detachedConfiguration1 is both consumable and
+declarable. This combination is incorrect, only one of these flags should be
+set.
+[        ] The configuration detachedConfiguration1 is both resolvable and
+consumable. This is considered a legacy configuration and it will eventually
+only be possible to be one of these.
+[        ] The configuration detachedConfiguration1 is both consumable and
+declarable. This combination is incorrect, only one of these flags should be
+set.
+[        ] The configuration detachedConfiguration2 is both resolvable and
+consumable. This is considered a legacy configuration and it will eventually
+only be possible to be one of these.
+[        ] The configuration detachedConfiguration2 is both consumable and
+declarable. This combination is incorrect, only one of these flags should be
+set.
+[        ] The configuration detachedConfiguration2 is both resolvable and
+consumable. This is considered a legacy configuration and it will eventually
+only be possible to be one of these.
+[        ] The configuration detachedConfiguration2 is both consumable and
+declarable. This combination is incorrect, only one of these flags should be
+set.
+[        ] The configuration classpath is both resolvable and consumable. This
+is considered a legacy configuration and it will eventually only be possible to
+be one of these.
+[        ] The configuration classpath is both consumable and declarable. This
+combination is incorrect, only one of these flags should be set.
+[        ] The configuration :gradle:mainSourceElements is both consumable and
+declarable. This combination is incorrect, only one of these flags should be
+set.
+[        ] Resolve mutations for :gradle:compileJava (Thread[#601,Execution
+worker,5,main]) started.
+[        ] :gradle:compileJava (Thread[#601,Execution worker,5,main]) started.
+[        ] > Task :gradle:compileJava NO-SOURCE
+[        ] Skipping task ':gradle:compileJava' as it has no source files and no
+previous output files.
+[        ] Resolve mutations for :gradle:compileGroovy (Thread[#601,Execution
+worker,5,main]) started.
+[        ] :gradle:compileGroovy (Thread[#601,Execution worker,5,main]) started.
+[        ] > Task :gradle:compileGroovy UP-TO-DATE
+[        ] Caching disabled for task ':gradle:compileGroovy' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':gradle:compileGroovy' as it is up-to-date.
+[        ] Resolve mutations for :gradle:pluginDescriptors
+(Thread[#601,Execution worker,5,main]) started.
+[        ] :gradle:pluginDescriptors (Thread[#601,Execution worker,5,main])
+started.
+[        ] > Task :gradle:pluginDescriptors UP-TO-DATE
+[        ] Caching disabled for task ':gradle:pluginDescriptors' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':gradle:pluginDescriptors' as it is up-to-date.
+[        ] Resolve mutations for :gradle:processResources (Thread[#601,Execution
+worker,5,main]) started.
+[        ] :gradle:processResources (Thread[#600,included builds,5,main])
+started.
+[        ] > Task :gradle:processResources UP-TO-DATE
+[        ] Caching disabled for task ':gradle:processResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':gradle:processResources' as it is up-to-date.
+[        ] Resolve mutations for :gradle:classes (Thread[#600,included
+builds,5,main]) started.
+[        ] :gradle:classes (Thread[#600,included builds,5,main]) started.
+[        ] > Task :gradle:classes UP-TO-DATE
+[        ] Skipping task ':gradle:classes' as it has no actions.
+[        ] Resolve mutations for :gradle:jar (Thread[#600,included
+builds,5,main]) started.
+[        ] :gradle:jar (Thread[#600,included builds,5,main]) started.
+[        ] > Task :gradle:jar UP-TO-DATE
+[        ] Caching disabled for task ':gradle:jar' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':gradle:jar' as it is up-to-date.
+[        ] The configuration classpath is both resolvable and consumable. This
+is considered a legacy configuration and it will eventually only be possible to
+be one of these.
+[        ] The configuration classpath is both consumable and declarable. This
+combination is incorrect, only one of these flags should be set.
+[  +38 ms] FAILURE: Build failed with an exception.
+[        ] * Where:
+[        ] Script
+'/Users/luckyverma/Desktop/Development/flutter/packages/flutter_tools/gradle/src
+/main/groovy/native_plugin_loader.groovy' line: 107
+[        ] * What went wrong:
+[        ] Could not initialize class
+org.apache.groovy.json.internal.FastStringUtils$ServiceHolder
+[        ] > Exception java.util.ServiceConfigurationError:
+org.apache.groovy.json.FastStringServiceFactory: Error accessing configuration
+file [in thread "Daemon worker"]
+[        ] * Try:
+[        ] > Run with --debug option to get more log output.
+[        ] > Run with --scan to get full insights.
+[        ] > Get more help at https://help.gradle.org.
+[        ] * Exception is:
+[        ] java.lang.NoClassDefFoundError: Could not initialize class
+org.apache.groovy.json.internal.FastStringUtils$ServiceHolder
+[        ] 	at
+org.apache.groovy.json.internal.FastStringUtils.getService(FastStringUtils.java:
+55)
+[        ] 	at
+org.apache.groovy.json.internal.FastStringUtils.toCharArray(FastStringUtils.java
+:66)
+[        ] 	at
+org.apache.groovy.json.internal.BaseJsonParser.parse(BaseJsonParser.java:113)
+[        ] 	at groovy.json.JsonSlurper.parseText(JsonSlurper.java:204)
+[        ] 	at groovy.json.JsonSlurper$parseText.call(Unknown Source)
+[        ] 	at
+NativePluginLoader.getDependenciesMetadata(/Users/luckyverma/Desktop/Development
+/flutter/packages/flutter_tools/gradle/src/main/groovy/native_plugin_loader.groo
+vy:107)
+[        ] 	at NativePluginLoader$getDependenciesMetadata$0.callCurrent(Unknown
+Source)
+[        ] 	at
+NativePluginLoader.getPlugins(/Users/luckyverma/Desktop/Development/flutter/pack
+ages/flutter_tools/gradle/src/main/groovy/native_plugin_loader.groovy:28)
+[        ] 	at NativePluginLoader$getPlugins.call(Unknown Source)
+[        ] 	at FlutterAppPluginLoaderPlugin.apply(app_plugin_loader.groovy:24)
+[        ] 	at FlutterAppPluginLoaderPlugin.apply(app_plugin_loader.groovy)
+[        ] 	at
+org.gradle.api.internal.plugins.ImperativeOnlyPluginTarget.applyImperative(Imper
+ativeOnlyPluginTarget.java:43)
+[        ] 	at
+org.gradle.api.internal.plugins.DefaultPluginManager.addPlugin(DefaultPluginMana
+ger.java:187)
+[        ] 	at
+org.gradle.api.internal.plugins.DefaultPluginManager.access$100(DefaultPluginMan
+ager.java:52)
+[        ] 	at
+org.gradle.api.internal.plugins.DefaultPluginManager$AddPluginBuildOperation.run
+(DefaultPluginManager.java:282)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuil
+dOperationRunner.java:29)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuil
+dOperationRunner.java:26)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuil
+dOperationRunner.java:66)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuil
+dOperationRunner.java:59)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildO
+perationRunner.java:157)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildO
+perationRunner.java:59)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOpera
+tionRunner.java:47)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOpe
+rationExecutor.java:68)
+[        ] 	at
+org.gradle.api.internal.plugins.DefaultPluginManager.lambda$doApply$0(DefaultPlu
+ginManager.java:167)
+[        ] 	at
+org.gradle.configuration.internal.DefaultUserCodeApplicationContext.apply(Defaul
+tUserCodeApplicationContext.java:44)
+[        ] 	at
+org.gradle.api.internal.plugins.DefaultPluginManager.doApply(DefaultPluginManage
+r.java:166)
+[        ] 	at
+org.gradle.api.internal.plugins.DefaultPluginManager.apply(DefaultPluginManager.
+java:146)
+[        ] 	at
+org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.lambda$applyLegacy
+Plugin$2(DefaultPluginRequestApplicator.java:159)
+[        ] 	at
+org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.applyPlugin(Defaul
+tPluginRequestApplicator.java:199)
+[        ] 	at
+org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.applyLegacyPlugin(
+DefaultPluginRequestApplicator.java:157)
+[        ] 	at
+org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.access$300(Default
+PluginRequestApplicator.java:60)
+[        ] 	at
+org.gradle.plugin.use.internal.DefaultPluginRequestApplicator$1$1.lambda$addLega
+cy$0(DefaultPluginRequestApplicator.java:113)
+[        ] 	at
+org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.lambda$applyPlugin
+s$0(DefaultPluginRequestApplicator.java:142)
+[        ] 	at java.base/java.lang.Iterable.forEach(Unknown Source)
+[        ] 	at
+org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.applyPlugins(Defau
+ltPluginRequestApplicator.java:142)
+[        ] 	at
+org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(Defau
+ltScriptPluginFactory.java:117)
+[        ] 	at
+org.gradle.configuration.BuildOperationScriptPlugin$1.run(BuildOperationScriptPl
+ugin.java:65)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuil
+dOperationRunner.java:29)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuil
+dOperationRunner.java:26)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuil
+dOperationRunner.java:66)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuil
+dOperationRunner.java:59)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildO
+perationRunner.java:157)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildO
+perationRunner.java:59)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOpera
+tionRunner.java:47)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOpe
+rationExecutor.java:68)
+[        ] 	at
+org.gradle.configuration.BuildOperationScriptPlugin.lambda$apply$0(BuildOperatio
+nScriptPlugin.java:62)
+[        ] 	at
+org.gradle.configuration.internal.DefaultUserCodeApplicationContext.apply(Defaul
+tUserCodeApplicationContext.java:44)
+[        ] 	at
+org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPl
+ugin.java:62)
+[        ] 	at
+org.gradle.initialization.ScriptEvaluatingSettingsProcessor.applySettingsScript(
+ScriptEvaluatingSettingsProcessor.java:75)
+[        ] 	at
+org.gradle.initialization.ScriptEvaluatingSettingsProcessor.process(ScriptEvalua
+tingSettingsProcessor.java:68)
+[        ] 	at
+org.gradle.initialization.SettingsEvaluatedCallbackFiringSettingsProcessor.proce
+ss(SettingsEvaluatedCallbackFiringSettingsProcessor.java:34)
+[        ] 	at
+org.gradle.initialization.RootBuildCacheControllerSettingsProcessor.process(Root
+BuildCacheControllerSettingsProcessor.java:46)
+[        ] 	at
+org.gradle.initialization.BuildOperationSettingsProcessor$2.call(BuildOperationS
+ettingsProcessor.java:49)
+[        ] 	at
+org.gradle.initialization.BuildOperationSettingsProcessor$2.call(BuildOperationS
+ettingsProcessor.java:46)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperatio
+nWorker.execute(DefaultBuildOperationRunner.java:204)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperatio
+nWorker.execute(DefaultBuildOperationRunner.java:199)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuil
+dOperationRunner.java:66)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuil
+dOperationRunner.java:59)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildO
+perationRunner.java:157)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildO
+perationRunner.java:59)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOper
+ationRunner.java:53)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOp
+erationExecutor.java:73)
+[        ] 	at
+org.gradle.initialization.BuildOperationSettingsProcessor.process(BuildOperation
+SettingsProcessor.java:46)
+[        ] 	at
+org.gradle.initialization.DefaultSettingsLoader.findSettingsAndLoadIfAppropriate
+(DefaultSettingsLoader.java:143)
+[        ] 	at
+org.gradle.initialization.DefaultSettingsLoader.findAndLoadSettings(DefaultSetti
+ngsLoader.java:63)
+[        ] 	at
+org.gradle.initialization.SettingsAttachingSettingsLoader.findAndLoadSettings(Se
+ttingsAttachingSettingsLoader.java:33)
+[        ] 	at
+org.gradle.internal.composite.CommandLineIncludedBuildSettingsLoader.findAndLoad
+Settings(CommandLineIncludedBuildSettingsLoader.java:35)
+[        ] 	at
+org.gradle.internal.composite.ChildBuildRegisteringSettingsLoader.findAndLoadSet
+tings(ChildBuildRegisteringSettingsLoader.java:44)
+[        ] 	at
+org.gradle.internal.composite.CompositeBuildSettingsLoader.findAndLoadSettings(C
+ompositeBuildSettingsLoader.java:35)
+[        ] 	at
+org.gradle.initialization.InitScriptHandlingSettingsLoader.findAndLoadSettings(I
+nitScriptHandlingSettingsLoader.java:33)
+[        ] 	at
+org.gradle.api.internal.initialization.CacheConfigurationsHandlingSettingsLoader
+.findAndLoadSettings(CacheConfigurationsHandlingSettingsLoader.java:36)
+[        ] 	at
+org.gradle.initialization.GradlePropertiesHandlingSettingsLoader.findAndLoadSett
+ings(GradlePropertiesHandlingSettingsLoader.java:38)
+[        ] 	at
+org.gradle.initialization.DefaultSettingsPreparer.prepareSettings(DefaultSetting
+sPreparer.java:31)
+[        ] 	at
+org.gradle.initialization.BuildOperationFiringSettingsPreparer$LoadBuild.doLoadB
+uild(BuildOperationFiringSettingsPreparer.java:71)
+[        ] 	at
+org.gradle.initialization.BuildOperationFiringSettingsPreparer$LoadBuild.run(Bui
+ldOperationFiringSettingsPreparer.java:66)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuil
+dOperationRunner.java:29)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuil
+dOperationRunner.java:26)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuil
+dOperationRunner.java:66)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuil
+dOperationRunner.java:59)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildO
+perationRunner.java:157)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildO
+perationRunner.java:59)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOpera
+tionRunner.java:47)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOpe
+rationExecutor.java:68)
+[        ] 	at
+org.gradle.initialization.BuildOperationFiringSettingsPreparer.prepareSettings(B
+uildOperationFiringSettingsPreparer.java:54)
+[        ] 	at
+org.gradle.initialization.VintageBuildModelController.lambda$prepareSettings$1(V
+intageBuildModelController.java:80)
+[        ] 	at
+org.gradle.internal.model.StateTransitionController.lambda$doTransition$14(State
+TransitionController.java:255)
+[        ] 	at
+org.gradle.internal.model.StateTransitionController.doTransition(StateTransition
+Controller.java:266)
+[        ] 	at
+org.gradle.internal.model.StateTransitionController.doTransition(StateTransition
+Controller.java:254)
+[        ] 	at
+org.gradle.internal.model.StateTransitionController.lambda$transitionIfNotPrevio
+usly$11(StateTransitionController.java:213)
+[        ] 	at
+org.gradle.internal.work.DefaultSynchronizer.withLock(DefaultSynchronizer.java:3
+4)
+[        ] 	at
+org.gradle.internal.model.StateTransitionController.transitionIfNotPreviously(St
+ateTransitionController.java:209)
+[        ] 	at
+org.gradle.initialization.VintageBuildModelController.prepareSettings(VintageBui
+ldModelController.java:80)
+[        ] 	at
+org.gradle.initialization.VintageBuildModelController.prepareToScheduleTasks(Vin
+tageBuildModelController.java:70)
+[        ] 	at
+org.gradle.internal.build.DefaultBuildLifecycleController.lambda$prepareToSchedu
+leTasks$6(DefaultBuildLifecycleController.java:172)
+[        ] 	at
+org.gradle.internal.model.StateTransitionController.lambda$doTransition$14(State
+TransitionController.java:255)
+[        ] 	at
+org.gradle.internal.model.StateTransitionController.doTransition(StateTransition
+Controller.java:266)
+[        ] 	at
+org.gradle.internal.model.StateTransitionController.doTransition(StateTransition
+Controller.java:254)
+[        ] 	at
+org.gradle.internal.model.StateTransitionController.lambda$maybeTransition$9(Sta
+teTransitionController.java:190)
+[        ] 	at
+org.gradle.internal.work.DefaultSynchronizer.withLock(DefaultSynchronizer.java:3
+4)
+[        ] 	at
+org.gradle.internal.model.StateTransitionController.maybeTransition(StateTransit
+ionController.java:186)
+[        ] 	at
+org.gradle.internal.build.DefaultBuildLifecycleController.prepareToScheduleTasks
+(DefaultBuildLifecycleController.java:170)
+[        ] 	at
+org.gradle.internal.buildtree.DefaultBuildTreeWorkPreparer.scheduleRequestedTask
+s(DefaultBuildTreeWorkPreparer.java:36)
+[        ] 	at
+org.gradle.configurationcache.VintageBuildTreeWorkController$scheduleAndRunReque
+stedTasks$1.apply(VintageBuildTreeWorkController.kt:36)
+[        ] 	at
+org.gradle.configurationcache.VintageBuildTreeWorkController$scheduleAndRunReque
+stedTasks$1.apply(VintageBuildTreeWorkController.kt:35)
+[        ] 	at
+org.gradle.composite.internal.DefaultIncludedBuildTaskGraph.withNewWorkGraph(Def
+aultIncludedBuildTaskGraph.java:112)
+[        ] 	at
+org.gradle.configurationcache.VintageBuildTreeWorkController.scheduleAndRunReque
+stedTasks(VintageBuildTreeWorkController.kt:35)
+[        ] 	at
+org.gradle.internal.buildtree.DefaultBuildTreeLifecycleController.lambda$schedul
+eAndRunTasks$1(DefaultBuildTreeLifecycleController.java:68)
+[        ] 	at
+org.gradle.internal.buildtree.DefaultBuildTreeLifecycleController.lambda$runBuil
+d$4(DefaultBuildTreeLifecycleController.java:98)
+[        ] 	at
+org.gradle.internal.model.StateTransitionController.lambda$transition$6(StateTra
+nsitionController.java:169)
+[        ] 	at
+org.gradle.internal.model.StateTransitionController.doTransition(StateTransition
+Controller.java:266)
+[        ] 	at
+org.gradle.internal.model.StateTransitionController.lambda$transition$7(StateTra
+nsitionController.java:169)
+[        ] 	at
+org.gradle.internal.work.DefaultSynchronizer.withLock(DefaultSynchronizer.java:4
+4)
+[        ] 	at
+org.gradle.internal.model.StateTransitionController.transition(StateTransitionCo
+ntroller.java:169)
+[        ] 	at
+org.gradle.internal.buildtree.DefaultBuildTreeLifecycleController.runBuild(Defau
+ltBuildTreeLifecycleController.java:95)
+[        ] 	at
+org.gradle.internal.buildtree.DefaultBuildTreeLifecycleController.scheduleAndRun
+Tasks(DefaultBuildTreeLifecycleController.java:68)
+[        ] 	at
+org.gradle.internal.buildtree.DefaultBuildTreeLifecycleController.scheduleAndRun
+Tasks(DefaultBuildTreeLifecycleController.java:63)
+[        ] 	at
+org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildAc
+tionRunner.java:31)
+[        ] 	at
+org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner
+.java:35)
+[        ] 	at
+org.gradle.internal.buildtree.ProblemReportingBuildActionRunner.run(ProblemRepor
+tingBuildActionRunner.java:49)
+[        ] 	at
+org.gradle.launcher.exec.BuildOutcomeReportingBuildActionRunner.run(BuildOutcome
+ReportingBuildActionRunner.java:65)
+[        ] 	at
+org.gradle.tooling.internal.provider.FileSystemWatchingBuildActionRunner.run(Fil
+eSystemWatchingBuildActionRunner.java:140)
+[        ] 	at
+org.gradle.launcher.exec.BuildCompletionNotifyingBuildActionRunner.run(BuildComp
+letionNotifyingBuildActionRunner.java:41)
+[        ] 	at
+org.gradle.launcher.exec.RootBuildLifecycleBuildActionExecutor.lambda$execute$0(
+RootBuildLifecycleBuildActionExecutor.java:40)
+[        ] 	at
+org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.ja
+va:123)
+[        ] 	at
+org.gradle.launcher.exec.RootBuildLifecycleBuildActionExecutor.execute(RootBuild
+LifecycleBuildActionExecutor.java:40)
+[        ] 	at
+org.gradle.internal.buildtree.InitDeprecationLoggingActionExecutor.execute(InitD
+eprecationLoggingActionExecutor.java:58)
+[        ] 	at
+org.gradle.internal.buildtree.DefaultBuildTreeContext.execute(DefaultBuildTreeCo
+ntext.java:40)
+[        ] 	at
+org.gradle.launcher.exec.BuildTreeLifecycleBuildActionExecutor.lambda$execute$0(
+BuildTreeLifecycleBuildActionExecutor.java:65)
+[        ] 	at
+org.gradle.internal.buildtree.BuildTreeState.run(BuildTreeState.java:58)
+[        ] 	at
+org.gradle.launcher.exec.BuildTreeLifecycleBuildActionExecutor.execute(BuildTree
+LifecycleBuildActionExecutor.java:65)
+[        ] 	at
+org.gradle.launcher.exec.RunAsBuildOperationBuildActionExecutor$3.call(RunAsBuil
+dOperationBuildActionExecutor.java:61)
+[        ] 	at
+org.gradle.launcher.exec.RunAsBuildOperationBuildActionExecutor$3.call(RunAsBuil
+dOperationBuildActionExecutor.java:57)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperatio
+nWorker.execute(DefaultBuildOperationRunner.java:204)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperatio
+nWorker.execute(DefaultBuildOperationRunner.java:199)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuil
+dOperationRunner.java:66)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuil
+dOperationRunner.java:59)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildO
+perationRunner.java:157)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildO
+perationRunner.java:59)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOper
+ationRunner.java:53)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOp
+erationExecutor.java:73)
+[        ] 	at
+org.gradle.launcher.exec.RunAsBuildOperationBuildActionExecutor.execute(RunAsBui
+ldOperationBuildActionExecutor.java:57)
+[        ] 	at
+org.gradle.launcher.exec.RunAsWorkerThreadBuildActionExecutor.lambda$execute$0(R
+unAsWorkerThreadBuildActionExecutor.java:36)
+[        ] 	at
+org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseS
+ervice.java:264)
+[        ] 	at
+org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWork
+erLeaseService.java:128)
+[        ] 	at
+org.gradle.launcher.exec.RunAsWorkerThreadBuildActionExecutor.execute(RunAsWorke
+rThreadBuildActionExecutor.java:36)
+[        ] 	at
+org.gradle.tooling.internal.provider.continuous.ContinuousBuildActionExecutor.ex
+ecute(ContinuousBuildActionExecutor.java:110)
+[        ] 	at
+org.gradle.tooling.internal.provider.SubscribableBuildActionExecutor.execute(Sub
+scribableBuildActionExecutor.java:64)
+[        ] 	at
+org.gradle.internal.session.DefaultBuildSessionContext.execute(DefaultBuildSessi
+onContext.java:46)
+[        ] 	at
+org.gradle.tooling.internal.provider.BuildSessionLifecycleBuildActionExecuter$Ac
+tionImpl.apply(BuildSessionLifecycleBuildActionExecuter.java:92)
+[        ] 	at
+org.gradle.tooling.internal.provider.BuildSessionLifecycleBuildActionExecuter$Ac
+tionImpl.apply(BuildSessionLifecycleBuildActionExecuter.java:80)
+[        ] 	at
+org.gradle.internal.session.BuildSessionState.run(BuildSessionState.java:69)
+[        ] 	at
+org.gradle.tooling.internal.provider.BuildSessionLifecycleBuildActionExecuter.ex
+ecute(BuildSessionLifecycleBuildActionExecuter.java:62)
+[        ] 	at
+org.gradle.tooling.internal.provider.BuildSessionLifecycleBuildActionExecuter.ex
+ecute(BuildSessionLifecycleBuildActionExecuter.java:41)
+[        ] 	at
+org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute
+(StartParamsValidatingActionExecuter.java:64)
+[        ] 	at
+org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute
+(StartParamsValidatingActionExecuter.java:32)
+[        ] 	at
+org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execu
+te(SessionFailureReportingActionExecuter.java:51)
+[        ] 	at
+org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execu
+te(SessionFailureReportingActionExecuter.java:39)
+[        ] 	at
+org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLog
+gingActionExecuter.java:47)
+[        ] 	at
+org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLog
+gingActionExecuter.java:31)
+[        ] 	at
+org.gradle.launcher.daemon.server.exec.ExecuteBuild.doBuild(ExecuteBuild.java:65
+)
+[        ] 	at
+org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly
+.java:37)
+[        ] 	at
+org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonComma
+ndExecution.java:104)
+[        ] 	at
+org.gradle.launcher.daemon.server.exec.WatchForDisconnection.execute(WatchForDis
+connection.java:39)
+[        ] 	at
+org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonComma
+ndExecution.java:104)
+[        ] 	at
+org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger.execute(ResetDepre
+cationLogger.java:29)
+[        ] 	at
+org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonComma
+ndExecution.java:104)
+[        ] 	at
+org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon.execute(Req
+uestStopIfSingleUsedDaemon.java:35)
+[        ] 	at
+org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonComma
+ndExecution.java:104)
+[        ] 	at
+org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.create(ForwardClient
+Input.java:78)
+[        ] 	at
+org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.create(ForwardClient
+Input.java:75)
+[        ] 	at org.gradle.util.internal.Swapper.swap(Swapper.java:38)
+[        ] 	at
+org.gradle.launcher.daemon.server.exec.ForwardClientInput.execute(ForwardClientI
+nput.java:75)
+[        ] 	at
+org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonComma
+ndExecution.java:104)
+[        ] 	at
+org.gradle.launcher.daemon.server.exec.LogAndCheckHealth.execute(LogAndCheckHeal
+th.java:64)
+[        ] 	at
+org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonComma
+ndExecution.java:104)
+[        ] 	at
+org.gradle.launcher.daemon.server.exec.LogToClient.doBuild(LogToClient.java:63)
+[        ] 	at
+org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly
+.java:37)
+[        ] 	at
+org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonComma
+ndExecution.java:104)
+[        ] 	at
+org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment.doBuild(Establi
+shBuildEnvironment.java:84)
+[        ] 	at
+org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly
+.java:37)
+[        ] 	at
+org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonComma
+ndExecution.java:104)
+[        ] 	at
+org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy$1.run(StartBu
+ildOrRespondWithBusy.java:52)
+[        ] 	at
+org.gradle.launcher.daemon.server.DaemonStateCoordinator$1.run(DaemonStateCoordi
+nator.java:297)
+[        ] 	at
+org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(E
+xecutorPolicy.java:64)
+[        ] 	at
+org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExec
+utor.java:47)
+[        ] 	at
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[        ] 	at
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[        ] 	at java.base/java.lang.Thread.run(Unknown Source)
+[        ] Caused by: java.lang.ExceptionInInitializerError: Exception
+java.util.ServiceConfigurationError:
+org.apache.groovy.json.FastStringServiceFactory: Error accessing configuration
+file [in thread "Daemon worker"]
+[        ] 	at
+org.apache.groovy.json.internal.FastStringUtils$ServiceHolder.loadService(FastSt
+ringUtils.java:41)
+[        ] 	at
+org.apache.groovy.json.internal.FastStringUtils$ServiceHolder.<clinit>(FastStrin
+gUtils.java:33)
+[        ] 	at
+org.apache.groovy.json.internal.FastStringUtils.getService(FastStringUtils.java:
+55)
+[        ] 	at
+org.apache.groovy.json.internal.FastStringUtils.toCharArray(FastStringUtils.java
+:66)
+[        ] 	at
+org.apache.groovy.json.internal.BaseJsonParser.parse(BaseJsonParser.java:113)
+[        ] 	at
+NativePluginLoader.getDependenciesMetadata(/Users/luckyverma/Desktop/Development
+/flutter/packages/flutter_tools/gradle/src/main/groovy/native_plugin_loader.groo
+vy:107)
+[        ] 	at NativePluginLoader$getDependenciesMetadata$0.callCurrent(Unknown
+Source)
+[   +1 ms] 	at
+NativePluginLoader.getPlugins(/Users/luckyverma/Desktop/Development/flutter/pack
+ages/flutter_tools/gradle/src/main/groovy/native_plugin_loader.groovy:28)
+[        ] 	at NativePluginLoader$getPlugins.call(Unknown Source)
+[        ] 	at FlutterAppPluginLoaderPlugin.apply(app_plugin_loader.groovy:24)
+[        ] 	at FlutterAppPluginLoaderPlugin.apply(app_plugin_loader.groovy)
+[        ] 	at
+org.gradle.api.internal.plugins.ImperativeOnlyPluginTarget.applyImperative(Imper
+ativeOnlyPluginTarget.java:43)
+[        ] 	at
+org.gradle.api.internal.plugins.DefaultPluginManager.addPlugin(DefaultPluginMana
+ger.java:187)
+[        ] 	at
+org.gradle.api.internal.plugins.DefaultPluginManager.access$100(DefaultPluginMan
+ager.java:52)
+[        ] 	at
+org.gradle.api.internal.plugins.DefaultPluginManager$AddPluginBuildOperation.run
+(DefaultPluginManager.java:282)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuil
+dOperationRunner.java:29)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuil
+dOperationRunner.java:26)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuil
+dOperationRunner.java:66)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuil
+dOperationRunner.java:59)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildO
+perationRunner.java:157)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildO
+perationRunner.java:59)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOpera
+tionRunner.java:47)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOpe
+rationExecutor.java:68)
+[        ] 	at
+org.gradle.api.internal.plugins.DefaultPluginManager.lambda$doApply$0(DefaultPlu
+ginManager.java:167)
+[        ] 	at
+org.gradle.configuration.internal.DefaultUserCodeApplicationContext.apply(Defaul
+tUserCodeApplicationContext.java:44)
+[        ] 	at
+org.gradle.api.internal.plugins.DefaultPluginManager.doApply(DefaultPluginManage
+r.java:166)
+[        ] 	at
+org.gradle.api.internal.plugins.DefaultPluginManager.apply(DefaultPluginManager.
+java:146)
+[        ] 	at
+org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.lambda$applyLegacy
+Plugin$2(DefaultPluginRequestApplicator.java:159)
+[        ] 	at
+org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.applyPlugin(Defaul
+tPluginRequestApplicator.java:199)
+[        ] 	at
+org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.applyLegacyPlugin(
+DefaultPluginRequestApplicator.java:157)
+[        ] 	at
+org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.access$300(Default
+PluginRequestApplicator.java:60)
+[        ] 	at
+org.gradle.plugin.use.internal.DefaultPluginRequestApplicator$1$1.lambda$addLega
+cy$0(DefaultPluginRequestApplicator.java:113)
+[        ] 	at
+org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.lambda$applyPlugin
+s$0(DefaultPluginRequestApplicator.java:142)
+[        ] 	at
+org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.applyPlugins(Defau
+ltPluginRequestApplicator.java:142)
+[        ] 	at
+org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(Defau
+ltScriptPluginFactory.java:117)
+[        ] 	at
+org.gradle.configuration.BuildOperationScriptPlugin$1.run(BuildOperationScriptPl
+ugin.java:65)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuil
+dOperationRunner.java:29)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuil
+dOperationRunner.java:26)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuil
+dOperationRunner.java:66)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuil
+dOperationRunner.java:59)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildO
+perationRunner.java:157)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildO
+perationRunner.java:59)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOpera
+tionRunner.java:47)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOpe
+rationExecutor.java:68)
+[        ] 	at
+org.gradle.configuration.BuildOperationScriptPlugin.lambda$apply$0(BuildOperatio
+nScriptPlugin.java:62)
+[        ] 	at
+org.gradle.configuration.internal.DefaultUserCodeApplicationContext.apply(Defaul
+tUserCodeApplicationContext.java:44)
+[        ] 	at
+org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPl
+ugin.java:62)
+[        ] 	at
+org.gradle.initialization.ScriptEvaluatingSettingsProcessor.applySettingsScript(
+ScriptEvaluatingSettingsProcessor.java:75)
+[        ] 	at
+org.gradle.initialization.ScriptEvaluatingSettingsProcessor.process(ScriptEvalua
+tingSettingsProcessor.java:68)
+[        ] 	at
+org.gradle.initialization.SettingsEvaluatedCallbackFiringSettingsProcessor.proce
+ss(SettingsEvaluatedCallbackFiringSettingsProcessor.java:34)
+[        ] 	at
+org.gradle.initialization.RootBuildCacheControllerSettingsProcessor.process(Root
+BuildCacheControllerSettingsProcessor.java:46)
+[        ] 	at
+org.gradle.initialization.BuildOperationSettingsProcessor$2.call(BuildOperationS
+ettingsProcessor.java:49)
+[        ] 	at
+org.gradle.initialization.BuildOperationSettingsProcessor$2.call(BuildOperationS
+ettingsProcessor.java:46)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperatio
+nWorker.execute(DefaultBuildOperationRunner.java:204)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperatio
+nWorker.execute(DefaultBuildOperationRunner.java:199)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuil
+dOperationRunner.java:66)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuil
+dOperationRunner.java:59)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildO
+perationRunner.java:157)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildO
+perationRunner.java:59)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOper
+ationRunner.java:53)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOp
+erationExecutor.java:73)
+[        ] 	at
+org.gradle.initialization.BuildOperationSettingsProcessor.process(BuildOperation
+SettingsProcessor.java:46)
+[        ] 	at
+org.gradle.initialization.DefaultSettingsLoader.findSettingsAndLoadIfAppropriate
+(DefaultSettingsLoader.java:143)
+[        ] 	at
+org.gradle.initialization.DefaultSettingsLoader.findAndLoadSettings(DefaultSetti
+ngsLoader.java:63)
+[        ] 	at
+org.gradle.initialization.SettingsAttachingSettingsLoader.findAndLoadSettings(Se
+ttingsAttachingSettingsLoader.java:33)
+[        ] 	at
+org.gradle.internal.composite.CommandLineIncludedBuildSettingsLoader.findAndLoad
+Settings(CommandLineIncludedBuildSettingsLoader.java:35)
+[        ] 	at
+org.gradle.internal.composite.ChildBuildRegisteringSettingsLoader.findAndLoadSet
+tings(ChildBuildRegisteringSettingsLoader.java:44)
+[        ] 	at
+org.gradle.internal.composite.CompositeBuildSettingsLoader.findAndLoadSettings(C
+ompositeBuildSettingsLoader.java:35)
+[        ] 	at
+org.gradle.initialization.InitScriptHandlingSettingsLoader.findAndLoadSettings(I
+nitScriptHandlingSettingsLoader.java:33)
+[        ] 	at
+org.gradle.api.internal.initialization.CacheConfigurationsHandlingSettingsLoader
+.findAndLoadSettings(CacheConfigurationsHandlingSettingsLoader.java:36)
+[        ] 	at
+org.gradle.initialization.GradlePropertiesHandlingSettingsLoader.findAndLoadSett
+ings(GradlePropertiesHandlingSettingsLoader.java:38)
+[        ] 	at
+org.gradle.initialization.DefaultSettingsPreparer.prepareSettings(DefaultSetting
+sPreparer.java:31)
+[        ] 	at
+org.gradle.initialization.BuildOperationFiringSettingsPreparer$LoadBuild.doLoadB
+uild(BuildOperationFiringSettingsPreparer.java:71)
+[        ] 	at
+org.gradle.initialization.BuildOperationFiringSettingsPreparer$LoadBuild.run(Bui
+ldOperationFiringSettingsPreparer.java:66)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuil
+dOperationRunner.java:29)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuil
+dOperationRunner.java:26)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuil
+dOperationRunner.java:66)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuil
+dOperationRunner.java:59)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildO
+perationRunner.java:157)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildO
+perationRunner.java:59)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOpera
+tionRunner.java:47)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOpe
+rationExecutor.java:68)
+[        ] 	at
+org.gradle.initialization.BuildOperationFiringSettingsPreparer.prepareSettings(B
+uildOperationFiringSettingsPreparer.java:54)
+[        ] 	at
+org.gradle.initialization.VintageBuildModelController.lambda$prepareSettings$1(V
+intageBuildModelController.java:80)
+[        ] 	at
+org.gradle.internal.model.StateTransitionController.lambda$doTransition$14(State
+TransitionController.java:255)
+[        ] 	at
+org.gradle.internal.model.StateTransitionController.doTransition(StateTransition
+Controller.java:266)
+[        ] 	at
+org.gradle.internal.model.StateTransitionController.doTransition(StateTransition
+Controller.java:254)
+[        ] 	at
+org.gradle.internal.model.StateTransitionController.lambda$transitionIfNotPrevio
+usly$11(StateTransitionController.java:213)
+[        ] 	at
+org.gradle.internal.work.DefaultSynchronizer.withLock(DefaultSynchronizer.java:3
+4)
+[        ] 	at
+org.gradle.internal.model.StateTransitionController.transitionIfNotPreviously(St
+ateTransitionController.java:209)
+[        ] 	at
+org.gradle.initialization.VintageBuildModelController.prepareSettings(VintageBui
+ldModelController.java:80)
+[        ] 	at
+org.gradle.initialization.VintageBuildModelController.prepareToScheduleTasks(Vin
+tageBuildModelController.java:70)
+[        ] 	at
+org.gradle.internal.build.DefaultBuildLifecycleController.lambda$prepareToSchedu
+leTasks$6(DefaultBuildLifecycleController.java:172)
+[        ] 	at
+org.gradle.internal.model.StateTransitionController.lambda$doTransition$14(State
+TransitionController.java:255)
+[        ] 	at
+org.gradle.internal.model.StateTransitionController.doTransition(StateTransition
+Controller.java:266)
+[        ] 	at
+org.gradle.internal.model.StateTransitionController.doTransition(StateTransition
+Controller.java:254)
+[        ] 	at
+org.gradle.internal.model.StateTransitionController.lambda$maybeTransition$9(Sta
+teTransitionController.java:190)
+[        ] 	at
+org.gradle.internal.work.DefaultSynchronizer.withLock(DefaultSynchronizer.java:3
+4)
+[        ] 	at
+org.gradle.internal.model.StateTransitionController.maybeTransition(StateTransit
+ionController.java:186)
+[        ] 	at
+org.gradle.internal.build.DefaultBuildLifecycleController.prepareToScheduleTasks
+(DefaultBuildLifecycleController.java:170)
+[        ] 	at
+org.gradle.internal.buildtree.DefaultBuildTreeWorkPreparer.scheduleRequestedTask
+s(DefaultBuildTreeWorkPreparer.java:36)
+[        ] 	at
+org.gradle.configurationcache.VintageBuildTreeWorkController$scheduleAndRunReque
+stedTasks$1.apply(VintageBuildTreeWorkController.kt:36)
+[        ] 	at
+org.gradle.configurationcache.VintageBuildTreeWorkController$scheduleAndRunReque
+stedTasks$1.apply(VintageBuildTreeWorkController.kt:35)
+[        ] 	at
+org.gradle.composite.internal.DefaultIncludedBuildTaskGraph.withNewWorkGraph(Def
+aultIncludedBuildTaskGraph.java:112)
+[        ] 	at
+org.gradle.configurationcache.VintageBuildTreeWorkController.scheduleAndRunReque
+stedTasks(VintageBuildTreeWorkController.kt:35)
+[        ] 	at
+org.gradle.internal.buildtree.DefaultBuildTreeLifecycleController.lambda$schedul
+eAndRunTasks$1(DefaultBuildTreeLifecycleController.java:68)
+[        ] 	at
+org.gradle.internal.buildtree.DefaultBuildTreeLifecycleController.lambda$runBuil
+d$4(DefaultBuildTreeLifecycleController.java:98)
+[        ] 	at
+org.gradle.internal.model.StateTransitionController.lambda$transition$6(StateTra
+nsitionController.java:169)
+[        ] 	at
+org.gradle.internal.model.StateTransitionController.doTransition(StateTransition
+Controller.java:266)
+[        ] 	at
+org.gradle.internal.model.StateTransitionController.lambda$transition$7(StateTra
+nsitionController.java:169)
+[        ] 	at
+org.gradle.internal.work.DefaultSynchronizer.withLock(DefaultSynchronizer.java:4
+4)
+[        ] 	at
+org.gradle.internal.model.StateTransitionController.transition(StateTransitionCo
+ntroller.java:169)
+[        ] 	at
+org.gradle.internal.buildtree.DefaultBuildTreeLifecycleController.runBuild(Defau
+ltBuildTreeLifecycleController.java:95)
+[        ] 	at
+org.gradle.internal.buildtree.DefaultBuildTreeLifecycleController.scheduleAndRun
+Tasks(DefaultBuildTreeLifecycleController.java:68)
+[        ] 	at
+org.gradle.internal.buildtree.DefaultBuildTreeLifecycleController.scheduleAndRun
+Tasks(DefaultBuildTreeLifecycleController.java:63)
+[        ] 	at
+org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildAc
+tionRunner.java:31)
+[        ] 	at
+org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner
+.java:35)
+[        ] 	at
+org.gradle.internal.buildtree.ProblemReportingBuildActionRunner.run(ProblemRepor
+tingBuildActionRunner.java:49)
+[        ] 	at
+org.gradle.launcher.exec.BuildOutcomeReportingBuildActionRunner.run(BuildOutcome
+ReportingBuildActionRunner.java:65)
+[        ] 	at
+org.gradle.tooling.internal.provider.FileSystemWatchingBuildActionRunner.run(Fil
+eSystemWatchingBuildActionRunner.java:140)
+[        ] 	at
+org.gradle.launcher.exec.BuildCompletionNotifyingBuildActionRunner.run(BuildComp
+letionNotifyingBuildActionRunner.java:41)
+[        ] 	at
+org.gradle.launcher.exec.RootBuildLifecycleBuildActionExecutor.lambda$execute$0(
+RootBuildLifecycleBuildActionExecutor.java:40)
+[        ] 	at
+org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.ja
+va:123)
+[        ] 	at
+org.gradle.launcher.exec.RootBuildLifecycleBuildActionExecutor.execute(RootBuild
+LifecycleBuildActionExecutor.java:40)
+[        ] 	at
+org.gradle.internal.buildtree.InitDeprecationLoggingActionExecutor.execute(InitD
+eprecationLoggingActionExecutor.java:58)
+[        ] 	at
+org.gradle.internal.buildtree.DefaultBuildTreeContext.execute(DefaultBuildTreeCo
+ntext.java:40)
+[        ] 	at
+org.gradle.launcher.exec.BuildTreeLifecycleBuildActionExecutor.lambda$execute$0(
+BuildTreeLifecycleBuildActionExecutor.java:65)
+[        ] 	at
+org.gradle.internal.buildtree.BuildTreeState.run(BuildTreeState.java:58)
+[        ] 	at
+org.gradle.launcher.exec.BuildTreeLifecycleBuildActionExecutor.execute(BuildTree
+LifecycleBuildActionExecutor.java:65)
+[        ] 	at
+org.gradle.launcher.exec.RunAsBuildOperationBuildActionExecutor$3.call(RunAsBuil
+dOperationBuildActionExecutor.java:61)
+[        ] 	at
+org.gradle.launcher.exec.RunAsBuildOperationBuildActionExecutor$3.call(RunAsBuil
+dOperationBuildActionExecutor.java:57)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperatio
+nWorker.execute(DefaultBuildOperationRunner.java:204)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperatio
+nWorker.execute(DefaultBuildOperationRunner.java:199)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuil
+dOperationRunner.java:66)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuil
+dOperationRunner.java:59)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildO
+perationRunner.java:157)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildO
+perationRunner.java:59)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOper
+ationRunner.java:53)
+[        ] 	at
+org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOp
+erationExecutor.java:73)
+[        ] 	at
+org.gradle.launcher.exec.RunAsBuildOperationBuildActionExecutor.execute(RunAsBui
+ldOperationBuildActionExecutor.java:57)
+[        ] 	at
+org.gradle.launcher.exec.RunAsWorkerThreadBuildActionExecutor.lambda$execute$0(R
+unAsWorkerThreadBuildActionExecutor.java:36)
+[        ] 	at
+org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseS
+ervice.java:264)
+[        ] 	at
+org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWork
+erLeaseService.java:128)
+[        ] 	at
+org.gradle.launcher.exec.RunAsWorkerThreadBuildActionExecutor.execute(RunAsWorke
+rThreadBuildActionExecutor.java:36)
+[        ] 	at
+org.gradle.tooling.internal.provider.continuous.ContinuousBuildActionExecutor.ex
+ecute(ContinuousBuildActionExecutor.java:110)
+[        ] 	at
+org.gradle.tooling.internal.provider.SubscribableBuildActionExecutor.execute(Sub
+scribableBuildActionExecutor.java:64)
+[        ] 	at
+org.gradle.internal.session.DefaultBuildSessionContext.execute(DefaultBuildSessi
+onContext.java:46)
+[        ] 	at
+org.gradle.tooling.internal.provider.BuildSessionLifecycleBuildActionExecuter$Ac
+tionImpl.apply(BuildSessionLifecycleBuildActionExecuter.java:92)
+[        ] 	at
+org.gradle.tooling.internal.provider.BuildSessionLifecycleBuildActionExecuter$Ac
+tionImpl.apply(BuildSessionLifecycleBuildActionExecuter.java:80)
+[        ] 	at
+org.gradle.internal.session.BuildSessionState.run(BuildSessionState.java:69)
+[        ] 	at
+org.gradle.tooling.internal.provider.BuildSessionLifecycleBuildActionExecuter.ex
+ecute(BuildSessionLifecycleBuildActionExecuter.java:62)
+[        ] 	at
+org.gradle.tooling.internal.provider.BuildSessionLifecycleBuildActionExecuter.ex
+ecute(BuildSessionLifecycleBuildActionExecuter.java:41)
+[        ] 	at
+org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute
+(StartParamsValidatingActionExecuter.java:64)
+[        ] 	at
+org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute
+(StartParamsValidatingActionExecuter.java:32)
+[        ] 	at
+org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execu
+te(SessionFailureReportingActionExecuter.java:51)
+[        ] 	at
+org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execu
+te(SessionFailureReportingActionExecuter.java:39)
+[        ] 	at
+org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLog
+gingActionExecuter.java:47)
+[        ] 	at
+org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLog
+gingActionExecuter.java:31)
+[        ] 	at
+org.gradle.launcher.daemon.server.exec.ExecuteBuild.doBuild(ExecuteBuild.java:65
+)
+[        ] 	at
+org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly
+.java:37)
+[        ] 	at
+org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonComma
+ndExecution.java:104)
+[        ] 	at
+org.gradle.launcher.daemon.server.exec.WatchForDisconnection.execute(WatchForDis
+connection.java:39)
+[        ] 	at
+org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonComma
+ndExecution.java:104)
+[        ] 	at
+org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger.execute(ResetDepre
+cationLogger.java:29)
+[        ] 	at
+org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonComma
+ndExecution.java:104)
+[        ] 	at
+org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon.execute(Req
+uestStopIfSingleUsedDaemon.java:35)
+[        ] 	at
+org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonComma
+ndExecution.java:104)
+[        ] 	at
+org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.create(ForwardClient
+Input.java:78)
+[        ] 	at
+org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.create(ForwardClient
+Input.java:75)
+[        ] 	at org.gradle.util.internal.Swapper.swap(Swapper.java:38)
+[        ] 	at
+org.gradle.launcher.daemon.server.exec.ForwardClientInput.execute(ForwardClientI
+nput.java:75)
+[        ] 	at
+org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonComma
+ndExecution.java:104)
+[        ] 	at
+org.gradle.launcher.daemon.server.exec.LogAndCheckHealth.execute(LogAndCheckHeal
+th.java:64)
+[        ] 	at
+org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonComma
+ndExecution.java:104)
+[        ] 	at
+org.gradle.launcher.daemon.server.exec.LogToClient.doBuild(LogToClient.java:63)
+[        ] 	at
+org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly
+.java:37)
+[        ] 	at
+org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonComma
+ndExecution.java:104)
+[        ] 	at
+org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment.doBuild(Establi
+shBuildEnvironment.java:84)
+[        ] 	at
+org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly
+.java:37)
+[        ] 	at
+org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonComma
+ndExecution.java:104)
+[        ] 	at
+org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy$1.run(StartBu
+ildOrRespondWithBusy.java:52)
+[        ] 	at
+org.gradle.launcher.daemon.server.DaemonStateCoordinator$1.run(DaemonStateCoordi
+nator.java:297)
+[        ] 	at
+org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(E
+xecutorPolicy.java:64)
+[        ] 	at
+org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExec
+utor.java:47)
+[        ] BUILD FAILED in 611ms
+[        ] 4 actionable tasks: 4 up-to-date
+[        ] Watched directory hierarchies:
+[/Users/luckyverma/Desktop/Development/flutter/packages/flutter_tools/gradle]
+[ +368 ms] Running Gradle task 'assembleRelease'... (completed in 1,094ms)
+[  +39 ms] "flutter apk" took 1,837ms.
+[  +25 ms] Gradle task assembleRelease failed with exit code 1
+[        ] 
+           #0      throwToolExit
+(package:flutter_tools/src/base/common.dart:10:3)
+           #1      AndroidGradleBuilder.buildGradleApp
+           (package:flutter_tools/src/android/gradle.dart:500:9)
+           <asynchronous suspension>
+           #2      AndroidGradleBuilder.buildApk
+           (package:flutter_tools/src/android/gradle.dart:224:5)
+           <asynchronous suspension>
+           #3      BuildApkCommand.runCommand
+           (package:flutter_tools/src/commands/build_apk.dart:141:5)
+           <asynchronous suspension>
+           #4      FlutterCommand.run.<anonymous closure>
+           (package:flutter_tools/src/runner/flutter_command.dart:1408:27)
+           <asynchronous suspension>
+           #5      AppContext.run.<anonymous closure>
+           (package:flutter_tools/src/base/context.dart:153:19)
+           <asynchronous suspension>
+           #6      CommandRunner.runCommand
+(package:args/command_runner.dart:212:13)
+           <asynchronous suspension>
+           #7      FlutterCommandRunner.runCommand.<anonymous closure>
+           (package:flutter_tools/src/runner/flutter_command_runner.dart:420:9)
+           <asynchronous suspension>
+           #8      AppContext.run.<anonymous closure>
+           (package:flutter_tools/src/base/context.dart:153:19)
+           <asynchronous suspension>
+           #9      FlutterCommandRunner.runCommand
+           (package:flutter_tools/src/runner/flutter_command_runner.dart:364:5)
+           <asynchronous suspension>
+           #10     run.<anonymous closure>.<anonymous closure>
+           (package:flutter_tools/runner.dart:130:9)
+           <asynchronous suspension>
+           #11     AppContext.run.<anonymous closure>
+           (package:flutter_tools/src/base/context.dart:153:19)
+           <asynchronous suspension>
+           #12     main (package:flutter_tools/executable.dart:93:3)
+           <asynchronous suspension>
+           
+           
+[  +67 ms] ensureAnalyticsSent: 66ms
+[        ] Running 1 shutdown hook
+[        ] Shutdown hooks complete
+[  +80 ms] exiting with code 1
