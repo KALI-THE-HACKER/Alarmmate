@@ -17,13 +17,9 @@
 
 ## 📸 Screenshots
 
-| Home Screen | Alarm Settings | Notifications |
-|-------------|----------------|---------------|
-| ![Home](readme_assets/home_page.png) | ![Settings](readme_assets/Alarm_settings.png) | ![Notification](Notification.png) |
-
 | Home Screen | Notifications |
 |-------------|---------------|
-| <img src="home_page.png" alt="image" width="250"> | <img src="Notification.png" alt="image" width="250"> |
+| <img src="readme_assets/home_page.png" alt="image" width="250"> | <img src="readme_assets/Notification.png" alt="image" width="250"> |
 
 ---
 
@@ -41,7 +37,6 @@ Check out the demo of **Alarmmate** in action!
 - Flutter SDK
 - Android/iOS device or emulator
 
-
 ### Future implementations
 
 - **Alarm format** - You'll be able to set alarms in both 24hour and 12hour format.
@@ -50,3 +45,4 @@ Check out the demo of **Alarmmate** in action!
 
 ### Platforms tested on
 - iOS
+
